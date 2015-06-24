@@ -1,0 +1,208 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background:
+        url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#home {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+#home header h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#home header h2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.buttonBkg {
+    background: yellow;
+}
+#getBackground {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+#get {
+    color: #000066;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#benefits {
+    padding:10px;
+}
+#benefits h2 {
+    color: #000000;
+    font-size: 38px;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 400px;
+}
+#benefits p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+#benefits ul {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 10px;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    list-style-type:disc;
+}
+
+#bottomImage {
+    position: relative;
+    padding:10px;
+    background: url(../images/testimonial_bg.jpg) no-repeat center bottom rgb(134,141,157);
+    width:1200px;
+    height:394px;
+    /* top: 1200px; */
+    right: 5px;
+    background-size: cover;
+}
+#bottomImage p {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-style: italic;
+    font-family: Helvetica, Arial, sans-serif;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 110px;
+}
+
+#signUpBkg {
+    position:relative;
+    /* width: 200px; */
+    height: 100px;
+}
+#signUp {
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 28px;
+    width: 175px;
+    background: #0000FF;
+    line-height: 92px;
+}
+#signUp p {
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+}
+#ads {
+    background-color: #000000;
+    height: 340px;
+}
+#ads p {
+    color: yellow;
+    position: relative;
+    top: 20%;
+    font-size: 48px;
+    text-align: center;
+}
+
+#ads .right {
+    position: relative;
+    margin-top: 140px;
+    left: 44%;
+}
+#ads .left {
+    position: relative;
+
+    left: 50%;
+}
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
